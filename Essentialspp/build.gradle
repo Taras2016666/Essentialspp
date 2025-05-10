@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+}
+
+// This is a PaperMC Minecraft plugin project
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+repositories {
+    mavenCentral()
+    maven { url = 'https://repo.papermc.io/repository/maven-public/' }
+}
+
+dependencies {
+    compileOnly 'io.papermc.paper:paper-api:1.20.1-R0.1-SNAPSHOT'
+    // ...existing code...
+}
+
+// ...existing code...
+

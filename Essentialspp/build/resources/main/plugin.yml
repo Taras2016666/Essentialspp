@@ -1,0 +1,65 @@
+name: Essentialspp
+main: org.example.Main
+version: 1.4 LTS
+api-version: "1.19.4"
+author: TarasFed
+description: Essentials++ — базовий плагін для Paper (PaperMC), схожий на EssentialsX.
+
+commands:
+  money:
+    description: Show your money balance.
+    usage: /money
+  pay:
+    description: Pay money to another player.
+    usage: /pay <player> <amount>
+  tempban:
+    description: Temporarily ban a player.
+    usage: /tempban <player> <time(m/h/d)> <reason>
+  warn:
+    description: Warn a player.
+    usage: /warn <player> <reason>
+  clearchat:
+    description: Clear chat for all players.
+    usage: /clearchat
+  setspawn:
+    description: Set spawn point for new players.
+    usage: /setspawn
+  tp:
+    description: Teleport to player or teleport player to another.
+    usage: /tp <player> [target]
+  tpa:
+    description: Accept teleport request.
+    usage: /tpa
+  tphere:
+    description: Teleport player to you.
+    usage: /tphere <player>
+  tpall:
+    description: Teleport all players to you.
+    usage: /tpall
+  heal:
+    description: Heal yourself or another player.
+    usage: /heal [player]
+  feed:
+    description: Feed yourself or another player.
+    usage: /feed [player]
+  god:
+    description: Toggle god mode.
+    usage: /god [player]
+  fly:
+    description: Toggle fly mode.
+    usage: /fly [player]
+  speed:
+    description: Change player speed.
+    usage: /speed <player> <speed>
+  invsee:
+    description: See player's inventory.
+    usage: /invsee <player>
+  vanish:
+    description: Toggle vanish mode.
+    usage: /vanish [player]
+  setessentialsppadmin:
+    description: Give essentialspp.admin permission to a player.
+    usage: /setEssentialsppAdmin <player>
+  setrule:
+    description: Add a new server rule.
+    usage: /setrule <rule text>

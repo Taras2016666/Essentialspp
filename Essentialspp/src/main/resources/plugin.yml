@@ -1,0 +1,161 @@
+name: Essentialspp
+main: mc.Essentialspp.plugin
+version: 2.0 LTS
+api-version: "1.19.4"
+author: TarasFed
+description: Essentials++ — базовий плагін для Paper, схожий на EssentialsX.
+
+commands:
+  money:
+    description: Show your money balance.
+    usage: /money
+  pay:
+    description: Pay money to another player.
+    usage: /pay <player> <amount>
+  tempban:
+    description: Temporarily ban a player.
+    usage: /tempban <player> <time(m/h/d)> <reason>
+  warn:
+    description: Warn a player.
+    usage: /warn <player> <reason>
+  clearchat:
+    description: Clear chat for all players.
+    usage: /clearchat
+  setspawn:
+    description: Set spawn point for new players.
+    usage: /setspawn
+  tp:
+    description: Teleport to player or teleport player to another.
+    usage: /tp <player> [target]
+  tpa:
+    description: Accept teleport request.
+    usage: /tpa
+  tphere:
+    description: Teleport player to you.
+    usage: /tphere <player>
+  heal:
+    description: Heal yourself or another player.
+    usage: /heal [player]
+  feed:
+    description: Feed yourself or another player.
+    usage: /feed [player]
+  god:
+    description: Toggle god mode.
+    usage: /god [player]
+  fly:
+    description: Toggle fly mode.
+    usage: /fly [player]
+  speed:
+    description: Change player speed.
+    usage: /speed <player> <speed>
+  invsee:
+    description: See player's inventory.
+    usage: /invsee <player>
+  vanish:
+    description: Toggle vanish mode.
+    usage: /vanish [player]
+  setessentialsppadmin:
+    description: Give essentialspp.admin permission to a player.
+    usage: /setEssentialsppAdmin <player>
+  sudo:
+    description: Run command as another player.
+    usage: /sudo <player> <command>
+  freeze:
+    description: Freeze/unfreeze a player.
+    usage: /freeze <player>
+  jail:
+    description: Jail a player for a period.
+    usage: /jail <player> <time(m/h/d)>
+  unjail:
+    description: Release a player from jail.
+    usage: /unjail <player>
+  broadcast:
+    description: Broadcast a message to all players.
+    usage: /broadcast <message>
+  whois:
+    description: Show info about a player.
+    usage: /whois <player>
+  sethome:
+    description: Set a personal home.
+    usage: /sethome <name>
+  home:
+    description: Teleport to your home.
+    usage: /home <name>
+  delhome:
+    description: Delete a home.
+    usage: /delhome <name>
+  back:
+    description: Teleport to your last location.
+    usage: /back
+  weather:
+    description: Change the weather.
+    usage: /weather <clear|rain|thunder>
+  time:
+    description: Change the time.
+    usage: /time <day|night|number>
+  lockdown:
+    description: Lockdown the server for a period.
+    usage: /lockdown <time(m/h/d)>
+  whitelist:
+    description: Manage server whitelist.
+    usage: /whitelist <add|remove|list> [player]
+  report:
+    description: Report a player to admins.
+    usage: /report <player> <reason>
+  maintenance:
+    description: Toggle maintenance mode.
+    usage: /maintenance <on|off>
+  chatcolor:
+    description: Change chat color for a player.
+    usage: /chatcolor <player> <color>
+  rules:
+    description: Show server rules.
+    usage: /rules
+  setrule:
+    description: Add a new server rule.
+    usage: /setrule <rule text>
+  backup:
+    description: Create a backup of the main world.
+    usage: /backup
+  setmotd:
+    description: Set the server MOTD.
+    usage: /setmotd <text>
+  silence:
+    description: Silence a player's chat.
+    usage: /silence <player>
+  resetworld:
+    description: Reset the main world.
+    usage: /resetworld
+  setborder:
+    description: Set the world border size.
+    usage: /setborder <size>
+  forcerespawn:
+    description: Force respawn a player at spawn.
+    usage: /forcerespawn <player>
+  track:
+    description: Show coordinates of a player.
+    usage: /track <player>
+  spychat:
+    description: Admins see private messages.
+    usage: /spychat
+  killall:
+    description: Remove all mobs of a type.
+    usage: /killall <mob>
+  restartserver:
+    description: Restart the server.
+    usage: /restartserver
+  randomitem:
+    description: Give a random item to the player.
+    usage: /randomitem
+  invisible:
+    description: Make a player fully invisible.
+    usage: /invisible <player>
+  forcerain:
+    description: Force rain weather.
+    usage: /forcerain
+  disablepvp:
+    description: Disable PvP on the server.
+    usage: /disablepvp
+  enablepvp:
+    description: Enable PvP on the server.
+    usage: /enablepvp
